@@ -1,0 +1,81 @@
+/* ketengah */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Styling untuk elemen dengan teks "Hello World" */
+.header {
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styling untuk elemen dengan teks panjang (lorem ipsum) */
+.content {
+    background-color: #ff6347; /* Warna merah */
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: justify;
+}
+/* Styling untuk teks "Hello World" */
+h2 {
+    color: #ff6347; /* Warna merah */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styling untuk paragraf pertama */
+p:first-of-type {
+    color: #1e90ff; /* Warna biru */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styling untuk paragraf kedua */
+p:last-of-type {
+    color: #32cd32; /* Warna hijau */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Menghilangkan padding dan margin default */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.red-border {
+    border: 2px solid #ff6666; /* Warna merah muda */
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.blue-border {
+    border: 2px solid #66b3ff; /* Warna biru muda */
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.purple-border {
+    border: 2px solid #cc99ff; /* Warna ungu muda */
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
