@@ -199,9 +199,6 @@ main {
     margin-left: 20px;
 }
 
-
-
-
 /* Footer styling */
 footer {
     background-color:rgba(0, 0, 0, 0.8);
@@ -296,6 +293,7 @@ footer {
 
 /* Login/Register - Styles */
 .form-popup {
+    color: #333;
     display: none;
     position: fixed;
     top: 50%;
