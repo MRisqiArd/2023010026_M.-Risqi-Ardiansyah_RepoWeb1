@@ -240,7 +240,7 @@ footer {
     box-shadow: 0 4px 6px rgba(4, 149, 211, 0.1);
     padding: 20px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 1s ease-out;
 }
 
 .card:hover {
@@ -266,11 +266,11 @@ footer {
 
 /* Club Besar Sepak Bola - Styles */
 .club-logo {
-    width: 120px; /* Ukuran lebar tetap untuk logo */
-    height: 120px; /* Ukuran tinggi tetap untuk logo */
-    object-fit: contain; /* Menjaga proporsi gambar */
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
     margin-bottom: 10px;
-    transition: transform 0.3s ease;
+    transition-timing-function: ease-in-out;
 }
 
 .card a {
@@ -319,7 +319,7 @@ footer {
 }
 
 .form-popup button {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     background-color: #ff6347;
     color: rgb(12, 231, 235);
@@ -327,6 +327,8 @@ footer {
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
+    margin: 10px;
+
 }
 
 .form-popup button:hover {

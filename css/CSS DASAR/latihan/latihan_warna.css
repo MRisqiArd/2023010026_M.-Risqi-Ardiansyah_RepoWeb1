@@ -1,0 +1,51 @@
+/* Menampilkan warna latar belakang  */
+#latar_belakang {
+    font-size:x-large;
+    font-family: arial;
+    color: #ffffff;
+    background: #00b7ff;
+    text-align: center;
+}
+
+#paragraf1 {
+    text-align: left;
+    background-color: rgb(255, 99, 70);
+    padding: 20px;
+    color: #ffffff;
+    font-family: arial;
+}
+
+/* Menampilkan warna teks */
+.warna_teks {
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.warna_teks #hello_world {
+    font-size: larger;
+}
+
+.warna_teks #paragraf2 {
+    color: #009dff;
+}
+.warna_teks #paragraf3 {
+    color: rgba(28, 222, 63, 0.877);
+}
+
+/* Menampilkan warna border */
+.border {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border #pertama {
+    border-color:rgb(255, 99, 70);
+    border-style: solid;
+}
+.border #kedua {
+    border-color: #009dff;
+    border-style: solid;
+}
+
+.border #ketiga {
+    border-color: #cb00da;
+    border-style: solid;
+}
