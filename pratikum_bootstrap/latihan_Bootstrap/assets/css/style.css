@@ -1,0 +1,17 @@
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+    }
+    .custom-navbar {
+        background-color: #007bff;
+        color: white;
+    }
+    .custom-footer {
+        background-color: #343a40;
+        color: white;
+        padding: 20px 0;
+    }
+    .custom-card {
+        border: 2px solid #007bff;
+    }
